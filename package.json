@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pingdata",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ping HTML/Markdown data fragments safely for docs pipelines.",
+  "bin": {
+    "pingdata": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pingdata.git"
+  },
+  "homepage": "https://theworker02.github.io/pingdata/",
+  "keywords": [
+    "ping",
+    "data",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
